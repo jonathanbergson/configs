@@ -19,6 +19,24 @@ module.exports = {
         link: '/development/',
       },
       {
+        text: 'Browsers',
+        link: '/browser/',
+      },
+      {
+        text: 'Editores de Texto',
+        link: '/text-editor/atom',
+        children: [
+          {
+            text: 'Atom',
+            link: '/text-editor/atom',
+          },
+          {
+            text: 'Sublime Text 3',
+            link: '/text-editor/sublime-text',
+          },
+        ],
+      },
+      {
         text: 'Sistemas Operacionais',
         link: '/os/linux',
         children: [
@@ -33,20 +51,6 @@ module.exports = {
           {
             text: 'Windows',
             link: '/os/windows/',
-          },
-        ],
-      },
-      {
-        text: 'Editores de Texto',
-        link: '/os/linux',
-        children: [
-          {
-            text: 'Atom',
-            link: '/text-editor/atom',
-          },
-          {
-            text: 'Sublime Text 3',
-            link: '/text-editor/sublime-text',
           },
         ],
       },
