@@ -1,5 +1,6 @@
 module.exports = {
   // site config
+  base: '/configs/',
   lang: 'pt-BR',
   title: 'Configs',
   description: 'Minhas configurações',
