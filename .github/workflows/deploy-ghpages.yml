@@ -9,7 +9,8 @@ on:
       - main
 
 jobs:
-  ci:
+  deploy-ghpages:
+    name: Deploy Github Pages
     runs-on: ${{ matrix.os }}
 
     strategy:
