@@ -36,6 +36,20 @@ module.exports = {
           },
         ],
       },
+      {
+        text: 'Editores de Texto',
+        link: '/os/linux',
+        children: [
+          {
+            text: 'Atom',
+            link: '/text-editor/atom',
+          },
+          {
+            text: 'Sublime Text 3',
+            link: '/text-editor/sublime-text',
+          },
+        ],
+      },
     ],
   },
 }
