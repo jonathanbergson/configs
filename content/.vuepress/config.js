@@ -1,8 +1,8 @@
 module.exports = {
   // site config
   lang: 'pt-BR',
-  title: '',
-  description: 'This is my env configs',
+  title: 'Configs',
+  description: 'Minhas configurações',
 
   // theme and its config
   theme: '@vuepress/theme-default',
