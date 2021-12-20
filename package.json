@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-website",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jonathan Bergson <contato@bergson.me>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev content",
+    "build": "vuepress build content"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.29"
+  }
+}
