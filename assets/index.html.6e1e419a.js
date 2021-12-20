@@ -1,0 +1,13 @@
+import{d as a}from"./app.3b2bb485.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";var n="/assets/windows-dashboard.7d027b95.png";const e={},c=a(`<h2 id="chocolatey" tabindex="-1"><a class="header-anchor" href="#chocolatey" aria-hidden="true">#</a> Chocolatey</h2><h2 id="softwares" tabindex="-1"><a class="header-anchor" href="#softwares" aria-hidden="true">#</a> Softwares</h2><p>Navegadores:</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>choco <span class="token function">install</span> brave
+choco <span class="token function">install</span> firefox
+choco <span class="token function">install</span> googlechrome
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>Programas de mensagem:</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>choco <span class="token function">install</span> discord
+choco <span class="token function">install</span> telegram
+choco <span class="token function">install</span> whatsapp
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>Programas de m\xFAsica e m\xEDdia:</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>choco <span class="token function">install</span> spotify
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>Apps para jogar:</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>choco <span class="token function">install</span> epicgameslauncher
+choco <span class="token function">install</span> goggalaxy
+choco <span class="token function">install</span> origin
+choco <span class="token function">install</span> steam
+choco <span class="token function">install</span> uplay
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id="sistema" tabindex="-1"><a class="header-anchor" href="#sistema" aria-hidden="true">#</a> Sistema</h2><h3 id="dashboard" tabindex="-1"><a class="header-anchor" href="#dashboard" aria-hidden="true">#</a> Dashboard</h3><p>Organiza\xE7\xE3o de apps:</p><p><img src="`+n+'" alt="Organiza\xE7\xE3o da dashboard dos meus apps"></p>',14);function o(l,r){return c}var t=s(e,[["render",o]]);export{t as default};
