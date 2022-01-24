@@ -170,3 +170,8 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="honukai/honukai"
 ZSH_THEME="materialshell/materialshell"
 ```
+
+## Fontes
+
+- [Fira Code](https://github.com/tonsky/FiraCode)
+- [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono/releases/tag/v2.242)
