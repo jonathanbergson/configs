@@ -1,5 +1,0 @@
-import{d as a}from"./app.be1d8c18.js";import{_ as n}from"./plugin-vue_export-helper.21dcd24c.js";const s={},e=a(`<h2 id="flatpak" tabindex="-1"><a class="header-anchor" href="#flatpak" aria-hidden="true">#</a> Flatpak</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>snap <span class="token function">install</span> insomnia
-snap <span class="token function">install</span> spotify
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="snap" tabindex="-1"><a class="header-anchor" href="#snap" aria-hidden="true">#</a> Snap</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>snap <span class="token function">install</span> insomnia
-snap <span class="token function">install</span> spotify
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div>`,4);function i(l,r){return e}var t=n(s,[["render",i]]);export{t as default};
