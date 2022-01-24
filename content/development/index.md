@@ -1,6 +1,6 @@
 ## Docker
 
-Instalar o `docker`:
+Instalar `docker`:
 
 :::: code-group
 ::: code-group-item Linux
@@ -38,7 +38,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ## Node.js
 
-Instalar o `nvm`:
+Instalar `nvm`:
 
 :::: code-group
 ::: code-group-item Linux
@@ -56,7 +56,7 @@ nvm install --lts
 :::
 ::::
 
-Configurar o `npm`:
+Configurar `npm`:
 
 ```shell
 npm config set init-author-name "Fullname"
