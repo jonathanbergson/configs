@@ -1,11 +1,14 @@
-cdb() cd ~/www/github/trackco/a2/backend/cmd/core;
-cdf() cd ~/www/github/trackco/a2/frontend/track;
-cdd() cd ~/www/github/trackco/design-system;
-cdd() cd ~/www/github/trackco/api-credits;
+track:ds() cd ~/www/github/trackco/design-system;
+code:track:ds() code ~/www/github/trackco/design-system;
 
-trackco:code() code ~/www/github/trackco/a2
-trackco:code:front() code ~/www/github/trackco/a2/frontend/track;
+cxm:a2() cd ~/www/github/trackco/a2
+code:cxm:a2() code ~/www/github/trackco/a2
 
-cdui() cd ~/www/github/jonathanbergson/track-ui;
+cxm:back() cd ~/www/github/trackco/a2/backend/cmd/core;
+code:cxm:back() code ~/www/github/trackco/a2/frontend/track;
 
-# runb() cd ~/www/a2/backend/cmd/core && go run main.go;
+cmx:front() cd ~/www/github/trackco/a2/frontend/track;
+code:cxm:front() code ~/www/github/trackco/a2/frontend/track;
+
+cmx:credits() cd ~/www/github/trackco/api-credits;
+code:cmx:credits() code ~/www/github/trackco/api-credits;
