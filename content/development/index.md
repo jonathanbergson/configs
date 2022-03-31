@@ -73,6 +73,26 @@ npm i -g yo generator-editorconfig
 npm i -g create-react-app react-native-cli
 ```
 
+## .NET
+
+Baixar e instalar
+
+::::code-group
+:::code-group-item Linux
+```bash
+# Usando Snaps
+sudo snap install dotnet-sdk --classic --channel=6.0 # Channels [3.1, 5.0, 6.0]
+sudo snap alias dotnet-sdk.dotnet dotnet
+```
+:::
+
+::: code-group-item MacOS
+```bash
+npx create-vuepress-site [optionalDirectoryName]
+```
+:::
+::::code-group
+
 ## Go
 
 Baixar e instalar:
