@@ -25,8 +25,23 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 #### Adicionar Softwares
 
 ```shell
-snap install insomnia
-snap install spotify
+flatpak install flathub org.mozilla.firefox
+flatpak install flathub com.spotify.Client
+
+flatpak install flathub com.visualstudio.code
+flatpak install flathub rest.insomnia.Insomnia
+flatpak install flathub com.getpostman.Postman
+
+flatpak install flathub com.valvesoftware.Steam
+flatpak install flathub com.discordapp.Discord
+
+flatpak install flathub org.godotengine.Godot
+flatpak install flathub com.unity.UnityHub
+flatpak install flathub org.blender.Blender
+flatpak install flathub org.kde.krita
+flatpak install flathub org.gimp.GIMP
+flatpak install flathub org.videolan.VLC
+flatpak install flathub com.obsproject.Studio
 ```
 
 ## Snap
