@@ -1,1 +1,0 @@
-const e={key:"v-66d34d6d",path:"/os/linux/",title:"",lang:"pt-BR",frontmatter:{},excerpt:"",headers:[{level:2,title:"Flatpak",slug:"flatpak",children:[]},{level:2,title:"Snap",slug:"snap",children:[]}],git:{updatedTime:1647258113e3,contributors:[{name:"Jonathan Bergson",email:"contato@bergson.me",commits:1}]},filePathRelative:"os/linux/index.md"};export{e as data};
