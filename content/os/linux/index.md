@@ -94,3 +94,9 @@ flatpak install flathub com.mattjakeman.ExtensionManager
 snap install insomnia
 snap install spotify
 ```
+
+### Softwares
+
+#### Gerenciador de Extensões
+
+![Gerenciador de Extensões do GNOME](./screenshots/linux-gnome-extensions.png)
