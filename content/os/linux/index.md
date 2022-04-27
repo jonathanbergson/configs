@@ -27,6 +27,9 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 Navegadores:
 
 ```shell
+flatpak install flathub com.brave.Browser
+flatpak install flathub org.chromium.Chromium
+flatpak install flathub com.google.Chrome
 flatpak install flathub org.mozilla.firefox
 ```
 
@@ -35,7 +38,9 @@ Editores de texto:
 ```shell
 flatpak install flathub com.jetbrains.Rider
 flatpak install flathub com.jetbrains.WebStorm
+flatpak install flathub com.sublimetext.three
 flatpak install flathub com.visualstudio.code
+flatpak install flathub io.atom.Atom
 ```
 
 Ferramentas de desenvolvimento:
