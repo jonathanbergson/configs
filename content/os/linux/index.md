@@ -100,3 +100,11 @@ snap install spotify
 #### Gerenciador de Extensões
 
 ![Gerenciador de Extensões do GNOME](./linux-gnome-extensions.png)
+
+#### App Icons Taskbar
+
+![Extensões do GNOME - App Icons Taskbar](./linux-gnome-extension-app-icons-taskbar.png)
+
+#### Sound Output Device Chooser
+
+![Extensões do GNOME - Sound Output Device Chooser](./linux-gnome-extension-sound-output-device-chooser.png)
