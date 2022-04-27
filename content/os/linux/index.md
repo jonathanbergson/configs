@@ -24,25 +24,65 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 #### Adicionar Softwares
 
+Navegadores:
+
 ```shell
 flatpak install flathub org.mozilla.firefox
-flatpak install flathub com.spotify.Client
+```
 
+Editores de texto:
+
+```shell
+flatpak install flathub com.jetbrains.Rider
+flatpak install flathub com.jetbrains.WebStorm
 flatpak install flathub com.visualstudio.code
-flatpak install flathub rest.insomnia.Insomnia
+```
+
+Ferramentas de desenvolvimento:
+
+```shell
 flatpak install flathub com.getpostman.Postman
+flatpak install flathub rest.insomnia.Insomnia
+```
 
-flatpak install flathub com.valvesoftware.Steam
+Programas de mensagem:
+
+```shell
 flatpak install flathub com.discordapp.Discord
+```
 
+Programas de música e mídia:
+
+```shell
+flatpak install flathub com.obsproject.Studio
+flatpak install flathub com.spotify.Client
+flatpak install flathub org.videolan.VLC
+```
+
+Programas para designer:
+
+```shell
+flatpak install flathub org.blender.Blender
+flatpak install flathub org.gimp.GIMP
+flatpak install flathub org.kde.krita
+```
+
+Programas para game developer:
+
+```shell
 flatpak install flathub org.godotengine.Godot
 flatpak install flathub com.unity.UnityHub
-flatpak install flathub org.blender.Blender
-flatpak install flathub org.kde.krita
-flatpak install flathub org.gimp.GIMP
-flatpak install flathub org.videolan.VLC
-flatpak install flathub com.obsproject.Studio
+```
 
+Apps para jogar:
+
+```shell
+flatpak install flathub com.valvesoftware.Steam
+```
+
+GNOME:
+
+```shell
 flatpak install flathub com.mattjakeman.ExtensionManager
 ```
 
