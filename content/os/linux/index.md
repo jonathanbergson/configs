@@ -42,6 +42,8 @@ flatpak install flathub org.kde.krita
 flatpak install flathub org.gimp.GIMP
 flatpak install flathub org.videolan.VLC
 flatpak install flathub com.obsproject.Studio
+
+flatpak install flathub com.mattjakeman.ExtensionManager
 ```
 
 ## Snap
