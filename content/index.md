@@ -6,7 +6,7 @@ ssh-keygen -C "Usuário, Sistema - Domingo, 1 Dezembro 2021"
 ssh-keygen -t rsa -b 4096 -C "Username, Sistema - Domingo, 1 Dezembro 2021" -N "passphrase"
 ```
 
-#### Copiar para área de transferencia
+#### Copiar para área de transferência
 
 :::: code-group
 ::: code-group-item MacOS
@@ -16,7 +16,7 @@ cat ~/.ssh/id_rsa.pub | pbcopy
 :::
 ::::
 
-#### Criar arquivo de configuração para multiplas chaves
+#### Criar arquivo de configuração para múltiplas chaves
 
 ```shell
 # work account
@@ -61,8 +61,8 @@ brew install git-flow-avh
 Configurar dados dos commits:
 
 ```shell
-git config --global user.name "Fullname"
-git config --global user.email "mail@domain.com"
+git config --global user.name "Jonathan Bergson"
+git config --global user.email "contato@bergson.me"
 ```
 
 Backup de repositórios:

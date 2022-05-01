@@ -1,3 +1,9 @@
+## Apps
+
+```shell
+sudo apt install gnome-console gnome-text-editor
+```
+
 ## Flatpak
 
 #### Instalar

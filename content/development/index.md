@@ -59,9 +59,9 @@ nvm install --lts
 Configurar `npm`:
 
 ```shell
-npm config set init-author-name "Fullname"
-npm config set init-author-email "mail@domain.com"
-npm config set init-author-url "http://domain.com"
+npm config set init-author-name "Jonathan Bergson"
+npm config set init-author-email "contato@bergson.me"
+npm config set init-author-url "https://bergson.me"
 npm config set init-license "MIT"
 ```
 
@@ -91,7 +91,7 @@ sudo snap alias dotnet-sdk.dotnet dotnet
 npx create-vuepress-site [optionalDirectoryName]
 ```
 :::
-::::code-group
+::::
 
 ## Go
 
@@ -127,4 +127,3 @@ sudo systemctl disable postgresql
 ```
 :::
 ::::
-
