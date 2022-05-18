@@ -26,6 +26,7 @@
 
 ```json
 {
+  "version": "2.0.114.1",
   "settings": {
     "blur": 0,
     "brightness": 100,
@@ -38,24 +39,29 @@
     "applyvideofilters": false,
     "backgroundcolor": "#000000",
     "backgroundopacity": 95,
+    "blackbars": false,
     "blockads": true,
     "blockadsexceptforsubs": false,
-    "blockautoplay": false,
+    "blockautoplay": true,
     "blockhfrformats": false,
     "blockwebmformats": false,
     "cinemamode": true,
     "cinemamodewideplayer": true,
+    "controlbar": {
+      "active": true,
+      "autohide": true,
+      "centered": true,
+      "position": "absolute"
+    },
     "controls": [
-      "loop",
-      "reverse-playlist",
       "not-interested",
       "cinema-mode",
-      "pop-up-player",
       "speed-minus",
       "speed",
       "speed-plus"
     ],
-    "controlspeed": true,
+    "controlsvisible": true,
+    "controlspeed": false,
     "controlspeedmousebutton": false,
     "controlvolume": false,
     "controlvolumemousebutton": false,
@@ -71,6 +77,7 @@
     "customcssrules": "",
     "customscript": "",
     "customtheme": false,
+    "darktheme": true,
     "date": 1577481084178,
     "defaultvolume": true,
     "disableautoplay": true,
@@ -81,7 +88,7 @@
     "hidechat": true,
     "hidecomments": true,
     "hiderelated": true,
-    "ignoreplaylists": true,
+    "ignoreplaylists": false,
     "ignorepopupplayer": true,
     "localecode": "pt_BR",
     "localedir": "ltr",
@@ -90,8 +97,8 @@
     "miniplayerposition": "_top-left",
     "miniplayersize": "_400x225",
     "newestcomments": false,
-    "overridespeeds": true,
-    "pauseforegroundtab": false,
+    "overridespeeds": false,
+    "pauseforegroundtab": true,
     "pausevideos": false,
     "popuplayersize": "640x360",
     "qualityembeds": "hd720",
@@ -118,8 +125,7 @@
     "whitelist": "",
     "wideplayer": false,
     "wideplayerviewport": false
-  },
-  "version": "2.0.103"
+  }
 }
 ```
 
