@@ -2,6 +2,7 @@
 
 ```shell
 sudo apt install gnome-console gnome-text-editor
+sudo apt install neofetch -y
 ```
 
 ## Flatpak
