@@ -45,7 +45,7 @@
     "blockautoplay": true,
     "blockhfrformats": false,
     "blockwebmformats": false,
-    "cinemamode": true,
+    "cinemamode": false,
     "cinemamodewideplayer": true,
     "controlbar": {
       "active": true,
