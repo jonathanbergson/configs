@@ -98,7 +98,12 @@ Instalar o `zsh`:
 :::: code-group
 ::: code-group-item Linux
 ```shell
+# Ubuntu
 sudo apt install zsh
+reboot
+
+# Fedora
+sudo dnf install zsh
 reboot
 ```
 :::
@@ -107,7 +112,11 @@ reboot
 Mudar o `shell` default para o `zsh`:
 
 ```shell
+# Ubuntu
 chsh -s /bin/zsh
+
+# Fedora
+sudo chsh -s $(which zsh)
 ```
 
 ## oh-my-zsh
