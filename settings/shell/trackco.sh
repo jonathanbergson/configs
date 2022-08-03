@@ -1,39 +1,26 @@
-cd:a2() {
-  cd ~/www/github/trackco/a2 && pwd;
+cdback() {
+  cd ~/Desktop/a2/backend/cmd/core && pwd;
 }
-code:a2() {
-  code ~/www/github/trackco/a2;
-}
-
-cd:back() {
-  cd ~/www/github/trackco/a2/backend/cmd/core && pwd;
-}
-run:back() {
-  clear && cd:back && go run main.go;
-}
-code:back() {
-  code ~/www/github/trackco/a2/frontend/track;
+rback() {
+  clear && cdback && go run main.go;
 }
 
-cd:front() {
-  cd ~/www/github/trackco/a2/frontend/track && pwd;
+cdapp() {
+  cd ~/Desktop/cxm-app && pwd;
 }
-run:front() {
-  clear && cd:front && npm run dev;
+rapp() {
+  clear && cdapp && yarn dev;
 }
-code:front() {
-  code ~/www/github/trackco/a2/frontend/track;
-}
-
-cd:ds() {
-  cd ~/www/github/trackco/design-system && pwd;
-}
-run:ds() {
-  clear && cd:ds && npm run storybook;
-}
-code:ds() {
-  code ~/www/github/trackco/design-system;
+capp() {
+  code ~/Desktop/cxm-app;
 }
 
-# cd:credits() cd ~/www/github/trackco/api-credits && pwd;
-# code:credits() code ~/www/github/trackco/api-credits;
+cdds() {
+  cd ~/Desktop/design-system && pwd;
+}
+rds() {
+  clear && cdds && npm run storybook;
+}
+cds() {
+  code ~/Desktop/design-system;
+}
