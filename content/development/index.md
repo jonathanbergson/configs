@@ -3,6 +3,21 @@
 Instalar `docker`:
 
 :::: code-group
+::: code-group-item Fedora
+```shell
+# Set up the repository
+sudo dnf -y install dnf-plugins-core
+sudo dnf config-manager \
+    --add-repo \
+    https://download.docker.com/linux/fedora/docker-ce.repo
+
+# Install Docker Engine
+sudo dnf install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo systemctl start docker
+sudo docker run hello-world
+```
+:::
+
 ::: code-group-item Ubuntu
 ```shell
 sudo apt update
@@ -18,24 +33,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 :::
 
-::: code-group-item Fedora
-```shell
-# Set up the repository
-sudo dnf -y install dnf-plugins-core
-sudo dnf config-manager \
-    --add-repo \
-    https://download.docker.com/linux/fedora/docker-ce.repo
-
-# Install Docker Engine
-sudo dnf install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-sudo systemctl start docker
-sudo docker run hello-world
-
-# Install Docker Compose
-sudo dnf install docker-compose
-```
-:::
-
 ::: code-group-item MacOS
 ```shell
 brew install docker --cask
@@ -46,7 +43,13 @@ brew install docker --cask
 Instalar `docker-compose`:
 
 :::: code-group
-::: code-group-item Linux
+::: code-group-item Fedora
+```shell
+sudo dnf install docker-compose
+```
+:::
+
+::: code-group-item Ubuntu
 ```shell
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
@@ -133,7 +136,13 @@ export PATH=$PATH:/usr/local/go/bin
 ## Postgres
 
 :::: code-group
-::: code-group-item Linux
+::: code-group-item Fedora
+```shell
+sudo dnf install postgresql-server postgresql-contrib
+```
+:::
+
+::: code-group-item Ubuntu
 ```shell
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
@@ -146,4 +155,9 @@ sudo service postgresql stop
 sudo systemctl disable postgresql
 ```
 :::
-::::
+
+::: code-group-item MacOS
+```shell
+brew install docker --cask
+```
+:::
