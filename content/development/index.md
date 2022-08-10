@@ -3,7 +3,7 @@
 Instalar `docker`:
 
 :::: code-group
-::: code-group-item Linux
+::: code-group-item Ubuntu
 ```shell
 sudo apt update
 sudo apt install ca-certificates curl gnupg lsb-release
@@ -15,6 +15,21 @@ echo \
 
 sudo apt update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+:::
+
+::: code-group-item Fedora
+```shell
+# Set up the repository
+sudo dnf -y install dnf-plugins-core
+sudo dnf config-manager \
+    --add-repo \
+    https://download.docker.com/linux/fedora/docker-ce.repo
+
+# Install Docker Engine
+sudo dnf install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo systemctl start docker
+sudo docker run hello-world
 ```
 :::
 
@@ -43,14 +58,14 @@ Instalar `nvm`:
 :::: code-group
 ::: code-group-item Linux
 ```shell
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install --lts
 ```
 :::
 
 ::: code-group-item MacOS
 ```shell
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install --lts
 ```
 :::
@@ -68,9 +83,11 @@ npm config set init-license "MIT"
 Instalar pacotes globalmente:
 
 ```shell
-npm i -g yarn gitignore nodemon
-npm i -g yo generator-editorconfig
-npm i -g create-react-app react-native-cli
+npm i --location=global \
+  yarn gitignore nodemon \
+  yo generator-editorconfig \
+  create-react-app react-native-cli \
+  @vue/cli
 ```
 
 ## .NET
