@@ -1,4 +1,4 @@
-import{d as n}from"./app.8a166394.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";const a={},e=n(`<h2 id="atalhos" tabindex="-1"><a class="header-anchor" href="#atalhos" aria-hidden="true">#</a> Atalhos</h2><div class="language-yaml ext-yml line-numbers-mode"><pre class="language-yaml"><code><span class="token comment"># keymap.cson</span>
+import{d as n}from"./app.cfdd335f.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";const a={},e=n(`<h2 id="atalhos" tabindex="-1"><a class="header-anchor" href="#atalhos" aria-hidden="true">#</a> Atalhos</h2><div class="language-yaml ext-yml line-numbers-mode"><pre class="language-yaml"><code><span class="token comment"># keymap.cson</span>
 <span class="token key atrule">&#39;atom-workspace&#39;</span><span class="token punctuation">:</span>
   <span class="token key atrule">&#39;cmd-b&#39;</span><span class="token punctuation">:</span> <span class="token string">&#39;tree-view:toggle&#39;</span>
   <span class="token key atrule">&#39;cmd-g&#39;</span><span class="token punctuation">:</span> <span class="token string">&#39;github:toggle-git-tab&#39;</span>
