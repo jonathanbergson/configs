@@ -30,6 +30,9 @@ sudo dnf config-manager \
 sudo dnf install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo systemctl start docker
 sudo docker run hello-world
+
+# Install Docker Compose
+sudo dnf install docker-compose
 ```
 :::
 
