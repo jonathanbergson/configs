@@ -11,6 +11,9 @@ cdapp() {
 rapp() {
   clear && cdapp && yarn dev;
 }
+tapp() {
+  clear && cdapp && yarn test:watch;
+}
 capp() {
   code ~/Desktop/cxm-app;
 }
