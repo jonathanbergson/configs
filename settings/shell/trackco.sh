@@ -2,7 +2,10 @@ cdback() {
   cd ~/Desktop/a2/backend/cmd/core && pwd;
 }
 rback() {
-  clear && cdback && go run main.go;
+  clear && cdback;
+  git checkout prod;
+  git pull origin prod;
+  go run main.go;
 }
 
 cdapp() {
