@@ -13,7 +13,10 @@ sudo dnf config-manager \
 
 # Install Docker Engine
 sudo dnf install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
 sudo systemctl start docker
+sudo systemctl enable docker.service
+
 sudo docker run hello-world
 ```
 :::
