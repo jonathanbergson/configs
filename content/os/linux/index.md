@@ -60,6 +60,7 @@ flatpak install flathub rest.insomnia.Insomnia
 Programas de mensagem:
 
 ```shell
+flatpak install com.slack.Slack
 flatpak install flathub com.discordapp.Discord
 ```
 
