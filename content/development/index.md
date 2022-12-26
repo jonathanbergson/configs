@@ -60,11 +60,32 @@ sudo chmod +x /usr/local/bin/docker-compose
 :::
 ::::
 
+## ASDF
+
+Instalar `ASDF`:
+
+```shell
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2
+. $HOME/.asdf/asdf.sh
+touch ~/.tool-versions
+```
+
 ## Node.js
 
 Instalar `nvm`:
 
 :::: code-group
+::: code-group-item ASDF
+```shell
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+
+asdf install nodejs latest
+asdf install nodejs 16.16.0
+
+asdf global nodejs 16.16.0
+```
+:::
+
 ::: code-group-item Linux
 ```shell
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
@@ -122,6 +143,14 @@ npx create-vuepress-site [optionalDirectoryName]
 ## Go
 
 Baixar e instalar:
+
+ASDF:
+
+```shell
+asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
+asdf install golang 1.19.4 
+asdf global golang 1.19.4
+```
 
 ``` shell
 sudo tar -C /usr/local -xzf ~/Downloads/go1.17.1.linux-amd64.tar.gz
