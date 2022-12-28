@@ -101,11 +101,17 @@ flatpak install flathub com.mattjakeman.ExtensionManager
 
 ## Snap
 
+```shell
+# Fedora
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+```
+
 #### Adicionar Softwares
 
 ```shell
-snap install insomnia
-snap install spotify
+snap install ngrok
+sudo snap install --classic code # or code-insiders
 ```
 
 ### Softwares
