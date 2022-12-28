@@ -112,11 +112,10 @@ reboot
 Mudar o `shell` default para o `zsh`:
 
 ```shell
-# Ubuntu
-chsh -s /bin/zsh
+sudo nano /etc/passwd
 
-# Fedora
-sudo chsh -s $(which zsh)
+# Mudar última linha para:
+# seu_usuario:x:1000:1000:Seu Nome:/home/seu_usuario:/bin/zsh
 ```
 
 ## oh-my-zsh
