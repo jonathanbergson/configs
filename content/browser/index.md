@@ -26,7 +26,7 @@
 
 ```json
 {
-  "version": "2.0.114.1",
+  "version": "2.0.117.10",
   "settings": {
     "blur": 0,
     "brightness": 100,
@@ -45,8 +45,9 @@
     "blockautoplay": true,
     "blockhfrformats": false,
     "blockwebmformats": false,
+    "boostvolume": false,
     "cinemamode": false,
-    "cinemamodewideplayer": true,
+    "cinemamodewideplayer": false,
     "controlbar": {
       "active": true,
       "autohide": true,
@@ -65,6 +66,7 @@
     "controlspeedmousebutton": false,
     "controlvolume": false,
     "controlvolumemousebutton": false,
+    "convertshorts": false,
     "customcolors": {
       "--main-color": "#00adee",
       "--main-background": "#111111",
@@ -88,6 +90,7 @@
     "hidechat": true,
     "hidecomments": true,
     "hiderelated": true,
+    "hideshorts": true,
     "ignoreplaylists": false,
     "ignorepopupplayer": true,
     "localecode": "pt_BR",
@@ -96,25 +99,25 @@
     "miniplayer": true,
     "miniplayerposition": "_top-left",
     "miniplayersize": "_400x225",
-    "newestcomments": false,
+    "newestcomments": true,
     "overridespeeds": false,
     "pauseforegroundtab": true,
     "pausevideos": false,
     "popuplayersize": "640x360",
-    "qualityembeds": "hd720",
+    "qualityembeds": "highres",
     "qualityembedsfullscreen": "hd1080",
-    "qualityplaylists": "hd1080",
+    "qualityplaylists": "highres",
     "qualityplaylistsfullscreen": "hd1080",
-    "qualityvideos": "hd1080",
+    "qualityvideos": "highres",
     "qualityvideosfullscreen": "hd1080",
     "reload": false,
     "reversemousewheeldirection": false,
-    "selectquality": false,
+    "selectquality": true,
     "selectqualityfullscreenoff": false,
     "selectqualityfullscreenon": false,
     "speed": 1,
     "speedvariation": 0.5,
-    "stopvideos": false,
+    "stopvideos": true,
     "theatermode": true,
     "theme": "default-dark",
     "themevariant": "youtube-deep-dark-pink.css",
@@ -124,7 +127,7 @@
     "volumevariation": 5,
     "whitelist": "",
     "wideplayer": false,
-    "wideplayerviewport": false
+    "wideplayerviewport": true
   }
 }
 ```
