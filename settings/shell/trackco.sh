@@ -1,32 +1,25 @@
 cdback() {
-  cd ~/Desktop/a2/backend/cmd/core && pwd;
+  cd ~/www/track/cxm-api/backend/cmd/core && pwd;
 }
 rback() {
   clear && cdback;
-  git checkout prod;
-  git pull origin prod;
+  git checkout main;
+  git pull origin main;
   go run main.go;
 }
 
 cdapp() {
-  cd ~/Desktop/cxm-app && pwd;
+  cd ~/www/track/cxm-app && pwd;
 }
 rapp() {
-  clear && cdapp && yarn dev;
-}
-tapp() {
-  clear && cdapp && yarn test:watch;
-}
-capp() {
-  code ~/Desktop/cxm-app;
+  clear && cdapp && npm run dev;
 }
 
-cdds() {
-  cd ~/Desktop/design-system && pwd;
-}
-rds() {
-  clear && cdds && npm run storybook;
-}
-cds() {
-  code ~/Desktop/design-system;
+recreate-stage() {
+  cd ~/www/track/cxm-app && pwd;
+  git checkeout main;
+  git pull origin main;
+  git branch -D stage;
+  git checkout -b stage;
+  git push -u origin stage -f;
 }
